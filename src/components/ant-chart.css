@@ -1,0 +1,139 @@
+.container {
+  background-color: #FFFFFF;
+  padding-bottom: 100px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-gap: 1%;
+  padding: 50px 0 0 50px;
+}
+
+.container1 > div {
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 30px;
+  border-radius: 15px;
+  height: 300px;
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-gap: 1%;
+  padding: 50px 0 0 50px;
+}
+
+.container2 > div {
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 30px;
+  border-radius: 15px;
+
+}
+
+.item7 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 500px;
+}
+
+.item8 {
+  height: 200px;
+}
+
+.item9 {
+  height: 200px;
+}
+
+.item10 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  height: 220px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-gap: 1%;
+  padding: 50px 0 0 50px;
+}
+
+
+.container3 > div {
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+.item11 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 500px;
+}
+
+.item12 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  height: 220px;
+}
+
+.item13 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  height: 220px;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-gap: 1%;
+  padding: 50px 0 0 50px;
+}
+
+.container4 > div {
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+.item14 {
+  height: 250px;
+}
+
+.item15 {
+  height: 250px;
+}
+
+.item16 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  height: 250px;
+}
+
+/* .item17 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+} */
+
